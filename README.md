@@ -1,25 +1,4 @@
-<img src="https://github.com/cullenwatson/JobSpy/assets/78247585/ae185b7e-e444-4712-8bb9-fa97f53e896b" width="400">
-
-**JobSpy** is a simple, yet comprehensive, job scraping library.
-
-**Not technical?** Try out the web scraping tool on our site at [usejobspy.com](https://usejobspy.com).
-
-*Looking to build a data-focused software product?* **[Book a call](https://calendly.com/zachary-products/15min)** *to
-work with us.*  
-\
-Check out another project we wrote: ***[HomeHarvest](https://github.com/ZacharyHampton/HomeHarvest)** – a Python package
-for real estate scraping*
-
-## Features
-
-- Scrapes job postings from **LinkedIn**, **Indeed** & **ZipRecruiter** simultaneously
-- Aggregates the job postings in a Pandas DataFrame
-- Proxy support (HTTP/S, SOCKS)
-
-[Video Guide for JobSpy](https://www.youtube.com/watch?v=RuP1HrAZnxs&pp=ygUgam9icyBzY3JhcGVyIGJvdCBsaW5rZWRpbiBpbmRlZWQ%3D) -
-Updated for release v1.1.3
-
-![jobspy](https://github.com/cullenwatson/JobSpy/assets/78247585/ec7ef355-05f6-4fd3-8161-a817e31c5c57)
+This project is a simple, yet comprehensive, job scraping library.
 
 ### Installation
 
@@ -147,30 +126,6 @@ You can specify the following countries when searching on Indeed (use the exact 
 | Taiwan               | Thailand     | Turkey     | Ukraine        |
 | United Arab Emirates | UK           | USA        | Uruguay        |
 | Venezuela            | Vietnam      |            |                |
-
-## Frequently Asked Questions
-
----
-
-**Q: Encountering issues with your queries?**  
-**A:** Try reducing the number of `results_wanted` and/or broadening the filters. If problems
-persist, [submit an issue](https://github.com/cullenwatson/JobSpy/issues).
-
----
-
-**Q: Received a response code 429?**  
-**A:** This indicates that you have been blocked by the job board site for sending too many requests. All of the job board sites are aggressive with blocking. We recommend:
-
-- Waiting a few seconds between requests.
-- Trying a VPN or proxy to change your IP address.
-
----
-
-**Q: Experiencing a "Segmentation fault: 11" on macOS Catalina?**  
-**A:** This is due to `tls_client` dependency not supporting your architecture. Solutions and workarounds include:
-
-- Upgrade to a newer version of MacOS
-- Reach out to the maintainers of [tls_client](https://github.com/bogdanfinn/tls-client) for fixes
 
 
   
